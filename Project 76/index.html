@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <a href="#">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="solar.html">Solar System</a>
+                    <a href="solar-eclipse.html">Solar-eclipse</a>
+                    <a href="lunar-eclipse.html">Lunar-eclipse</a>
+                    <a href="rocket.html">FALCON9</a>
+                </div>
+            </div>
+        </nav>
+        <section class="hero" id="hero">
+            <div class="social">
+                <div><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></div>
+                <div><a href="https://twitter.com/"><i class="fab fa-tumblr"></i></a></div>
+                <div><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a></div>
+                <div><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></div>
+            </div>
+            <div class="cta container">
+                <div class="left-section">
+                    <h1>The exploration of space will go ahead, whether we join in it or not, and it is one of the great adventures of all time, and no nation which expects to be the leader of other nations can expect to stay behind in the race for space.</h1>
+                    <button id="myButton" class="btn btn-primary">Explore Space</button>
+
+                    <script type="text/javascript">
+                        document.getElementById("myButton").onclick = function () {
+                            location.href = "solar.html";
+                        };
+                    </script>
+                </div>
+                <div class="right-section">
+                    <img src="./img/astronaut.png" alt="astronaut">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    
+    <footer>
+        <center>
+            <div class="copyright">
+                <span>&copy; Copyright 2021</span>
+            </div>
+        </center>
+    </footer>
+
+
+
+    <script src="./js/app.js"></script>
+</body></html>
